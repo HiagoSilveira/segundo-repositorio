@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+
+}
+
+
+.desafio{
+    color: blue;
+}
+
+#lista1{
+    color:rgb(16, 163, 221);
+    font-size: 20px;
+}
+
+#lista2{
+    color:rgb(226, 213, 25);
+    font-size: 30px;
+    list-style-type: none;
+}
+
+*{
+    background-color: rgb(122, 43, 43)
+}
+
