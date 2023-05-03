@@ -1,26 +1,34 @@
+.caixa{
 
-*{
-    margin: 0;
+background-color: red;
+font-size: 30px;
+font-family: monospace;
+
+width: 200px;
+height: 150px;
+
+border: solid;
+border-radius: 10px;
+margin: 20px;
+padding: 5px;
 
 }
 
 
-.desafio{
-    color: blue;
-}
 
-#lista1{
-    color:rgb(16, 163, 221);
-    font-size: 20px;
-}
 
-#lista2{
-    color:rgb(226, 213, 25);
-    font-size: 30px;
-    list-style-type: none;
-}
+.treinando{
 
-*{
-    background-color: rgb(122, 43, 43)
-}
+    background-color: yellow;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+
+    border: dotted;
+    margin: 5px 8px;
+    padding: 6px 9px;
+
+}
