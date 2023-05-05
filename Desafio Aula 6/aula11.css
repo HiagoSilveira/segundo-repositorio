@@ -1,0 +1,52 @@
+
+*{
+    background-color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.titulo{
+color: blue;
+}
+
+.titulo:hover{
+color: red;
+}
+
+.site-youtube:active{
+    color: red;
+    background-color: blue;
+}
+
+.site-youtube:visited{
+    background-color: black;
+
+}
+
+#texto:focus{
+font-size: 15px;
+background-color: blueviolet;
+color: red;
+}
+
+.item:first-child,
+.item:last-child {
+    color: red;
+}
+
+.lista:not(.destaque){
+background-color: blue;
+}
+
+/*pares*/
+.item:nth-child(2n) {
+background-color: aquamarine;
+}
+
+/*impares*/
+.item:nth-child(odd) {
+    background-color: red;
+}
+
+p:first-of-type {
+    color: blueviolet;
+}
