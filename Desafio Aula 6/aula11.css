@@ -50,3 +50,24 @@ background-color: aquamarine;
 p:first-of-type {
     color: blueviolet;
 }
+
+.gradiente{
+width: 150px;
+height: 150px;
+background-image: radial-gradient(blue, red, yellow);
+}
+
+.transforma{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transform: skew(40deg);
+    transition: widht 3s, height 3s;
+}
+
+.transforma:hover{
+    width: 300px;
+    height: 300px;
+}
+
