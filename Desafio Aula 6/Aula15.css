@@ -1,0 +1,39 @@
+.container {
+display:grid;
+grid-template-columns: 100px auto 100px;
+grid-auto-rows: repeat(6, 100px)
+gap:10px;
+}
+
+/* jhgjhgjhg */
+.header{
+    background-color: aqua;
+}
+
+.content{
+    background-color: aqua;
+}
+
+.sidebar{
+    background-color: aqua;
+}
+
+/* hgfghgf */
+@media screen and (win-widht: 480px) {
+    body {
+        background-color: blue;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "header header header"
+        content content content
+        content content content
+        sidebar sidebar sidebar
+        ;
+    }
+}
+
+@media screen and (win-widht: 1279px) {
+    body {
+        background-color: yellow;
+    }
+}
